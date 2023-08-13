@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pontileoo</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+</head>
+<body class="body">
+
+  <section class="sub-header">
+
+    <nav>
+      <a href="index.html"><img src="icons/logo1.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Community</a></li>
+            </ul>
+        </div>
+      <i class="bi bi-list" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>About Us</h1>
+
+  </section>
+  
+<!--about us section-->
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+      <h1>Now join us to break your chains!</h1>
+      <p>This is absolutely brilliant mate. Along with F12 developer tools I'm learning how HTML and CSS work. Cheers mate. Hi I have a question I have followed everything and completed your course but there is  one problem , I cannot write on those boxes every time I click on them it will go to the top.  Please let me know what did I do wrong. Thank you</p>
+      <a href="" class="visit-btn">Explore Now</a>
+    </div>
+    <div class="about-col">
+      <img src="images/body-img-kp.png" alt="">
+    </div>
+  </div>
+</section>
+
+
+<!--footer section-->
+<section class="footer">
+  <h4>About Us</h4>
+  <p1>We do many things that take time and money for you! Now join us and be a better traveller!</p1>
+  <div class="icons">
+    <i class="bi bi-facebook"></i>
+    <i class="bi bi-twitter"></i>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-linkedin"></i>
+  </div>
+  <p1>Made By <i class="bi bi-stars"></i> pontileoo <i class="bi bi-stars"></i></p1>
+</section>
+
+
+<!--javascript for responsive menu-->
+<script>
+
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+    navLinks.style.right = "0";  
+  }
+  function hideMenu() {
+    navLinks.style.right = "-200px";  
+  }
+
+
+</script> 
+
+</body>
+</html>

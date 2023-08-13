@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+}
+body {
+  background-color: black;
+}
+
+#container {
+  padding: 10% 40%;
+  text-align: center;
+}
+#container a {
+  text-align: center;
+}
+#container ul a {
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid white;
+  color: #fff;
+  align-items: center;
+  margin: 20px auto;
+  padding: 0;
+  line-height: 50px;
+  width: 250px;
+  transition: 0.32s;
+}
+#container ul a:hover {
+  color: #ffffff;
+  border-color: #f22800;
+  background: #f22800;
+  border-radius: 75px;
+  transform: translateY(-5px);
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inter 7</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+</head>
+<body>
+
+  <!-- header section -->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="icons/interseven-wide.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="bi bi-x-lg" onclick="closemenu()"></i>
+        </ul>
+        <i class="bi bi-list" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Designer, Programmer</p>
+        <h1>Hi, I am <span>interseven</span><br> from world.</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- about me section -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/image1.png" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Shot what able cold new the see hold. Friendly as an betrayed formerly he. Morning because as to society behaved moments. Put ladies design mrs sister was. Play on hill felt john no gate. Am passed figure to marked in. Prosperous middletons is ye inhabiting as assistance me especially. For looking two cousins regular amongst.</p>
+        
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Interface</span><br>Designin Web/App Interfaces</li>
+              <li><span>Web Development</span><br>Web App Development</li>
+              <li><span>3D Modelling</span><br>Building simple 3D models</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2017</span><br>Web/App design</li>
+              <li><span>2019</span><br>Web/App Build</li>
+              <li><span>2021</span><br>Building simple 3D models</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2016</span><br>Handmore Highgschool</li>
+              <li><span>2020</span><br>Handcore University</li>
+              <li><span>2021</span><br>Fontie Course</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- services section-->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+
+      <div>
+        <i class="bi bi-braces"></i>
+        <h2>Web Designer</h2>
+        <p>So insisted received is occasion advanced honoured. Among ready to which up.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="bi bi-crop"></i>
+        <h2>Interface Designer</h2>
+        <p>Zealously now pronounce existence add you instantly say offending. Merry their far had widen was.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="bi bi-app-indicator"></i>
+        <h2>Web/App Build</h2>
+        <p>Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- portfolio section -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Works</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/vertical-map.png">
+        <div class="layer">
+          <h3>Web Shopping App</h3>
+          <p>Needed feebly dining oh talked wisdom oppose at. Applauded use attempted strangers now are middleton concluded had.</p>
+          <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/vertical-sw.png">
+        <div class="layer">
+          <h3>Web Music App</h3>
+          <p>Performed suspicion in certainty so frankness by attention pretended. Newspaper or in tolerably education enjoyment.</p>
+          <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/vertical.png">
+        <div class="layer">
+          <h3>Web Travel App</h3>
+          <p>Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved.</p>
+          <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
+
+<!-- contact section-->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="bi bi-envelope-at-fill"></i></i> contact@example.com</p>
+        <p><i class="bi bi-telephone-outbound-fill"></i> +123456789</p>
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+        </div>
+        <a class="btn btn2" href="#">Download CV <i class="bi bi-download"></i></a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit <i class="bi bi-send-fill"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <p>Made By <i class="bi bi-stars"></i> interseven <i class="bi bi-balloon-heart"></i></p>
+  </div>
+</div>
+
+  <script>
+
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+
+  </script>
+
+  <script>
+
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+
+
+  </script>
+
+
+</body>
+</html>

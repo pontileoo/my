@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pontileoo</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+</head>
+<body class="body">
+
+  <section class="header">
+
+    <nav>
+      <a href="index.html"><img src="icons/logo1.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Community</a></li>
+            </ul>
+        </div>
+      <i class="bi bi-list" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Europe's Best Travel Community</h1>
+      <p>While traveling around Europe, meet new travelers and discover unexplored places.</p>
+      <a href="" class="visit-btn">Visit our center now</a>
+    </div> 
+
+  </section>
+  
+
+<!--main section-->
+<section class="main-sec">
+  <h1>Our services and packages</h1>
+  <p>We do many things that take time and money for you!</p>
+  <div class="row">
+    <div class="main-col">
+      <h3>Starter Pack</h3>
+      <p1>Plane, bus, train ticket, route creation and language support.</p1>
+    </div>
+
+    <div class="main-col">
+      <h3>Plus Pack</h3>
+      <p1>With the extra benefits of the Starter Pack, a guided tour from the first point and the opportunity to meet other members of the vibe and earning VibePoints.</p1>
+    </div>
+
+    <div class="main-col">
+      <h3>Elite Pack</h3>
+      <p1>With the extra benefits of the Plus Pack, preparing visa documents, making visa appointments, visa consultancy and many other document services and earning %25 more VibePoints.</p1>
+    </div>
+  </div>
+</section>
+
+
+<!--campus section-->
+<section class="campus">
+  <h1>İntroducing the new Campus!</h1>
+  <p>We do many things that take time and money for you!</p>
+  <div class="row">
+
+
+    <div class="campus-col">
+      <img src="images/body-img.png">
+      <div class="layer">
+        <h3>London</h3>
+      </div>
+    </div>
+
+    <div class="campus-col">
+      <img src="images/paris.png">
+      <div class="layer">
+        <h3>Paris</h3>
+      </div>
+    </div>
+
+    <div class="campus-col">
+      <img src="images/ny.png">
+      <div class="layer">
+        <h3>New York</h3>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!--comment section-->
+<section class="cta">
+  <h1>Now join us and be a better traveller!</h1>
+  <a href="" class="visit-btn">Contact Us</a>
+</section>
+
+<!--footer section-->
+<section class="footer">
+  <h4>About Us</h4>
+  <p1>We do many things that take time and money for you! Now join us and be a better traveller!</p1>
+  <div class="icons">
+    <i class="bi bi-facebook"></i>
+    <i class="bi bi-twitter"></i>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-linkedin"></i>
+  </div>
+  <p1>Made By <i class="bi bi-stars"></i> pontileoo <i class="bi bi-stars"></i></p1>
+</section>
+
+
+<!--javascript for responsive menu-->
+<script>
+
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+    navLinks.style.right = "0";  
+  }
+  function hideMenu() {
+    navLinks.style.right = "-200px";  
+  }
+
+
+</script> 
+
+</body>
+</html>
