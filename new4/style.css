@@ -186,6 +186,7 @@ nav ul li a:hover::after {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  z-index: -1;
 }
 .work img {
   width: 100%;
@@ -321,16 +322,16 @@ nav .bi {
   display: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 680px){
   #header {
     background-image: url(images/sq-background.png);
   }
   .header-text {
     margin-top: 100%;
-    font-size: 16px;
+    font-size: 30px;
   }
   .header-text h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
   nav .bi {
     display: block;
