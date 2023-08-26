@@ -5,7 +5,5 @@ const sr = ScrollReveal ({
   reset: true
 });
 
-sr.reveal('.hero-text',{delay:50, origin:'top'})
-sr.reveal('.hero-img',{delay:50, origin:'left'})
-sr.reveal('.icons',{delay:50, origin:'left'})
-sr.reveal('.scroll-down',{delay:50, origin:'bottom'})
+sr.reveal('.container',{delay:50, origin:'top'})
+sr.reveal('..bottom',{delay:50, origin:'left'})
