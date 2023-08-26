@@ -24,12 +24,12 @@ body {
   margin: 20px;
   line-height: 50px;
   width: 200px;
-  transition: 0.32s;
+  transition: .45s;
 }
 #container ul a:hover {
   color: #ffffff;
-  border-color: #f22800;
-  background: #f22800;
+  border-color: #ff004f;
+  background: #ff004f;
   border-radius: 75px;
   transform: translateY(-5px);
 }
