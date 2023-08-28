@@ -24,7 +24,7 @@ body {
   margin: 10px;
   line-height: 50px;
   width: 200px;
-  transition: .45s;
+  transition: .30s;
 }
 #container ul a:hover {
   color: #ffffff;
