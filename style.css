@@ -21,7 +21,7 @@ body {
   display: inline-block;
   border: 2px solid white;
   color: #fff;
-  margin: 20px;
+  margin: 10px;
   line-height: 50px;
   width: 200px;
   transition: .45s;
@@ -48,7 +48,7 @@ body {
 }
 .icons i:hover {
   color: #ff004f;
-  transform: translateY(-5px);
+  transform: translateX(5px);
 }
 .bottom {
   width: 100%;
@@ -57,13 +57,66 @@ body {
   font-weight: 300;
   margin-top: 20px;
   color: #fff;
-  text-align: center;
 }
 .bottom i {
   color: #ff004f;
   border-radius: 6px;
 }
 
+/* typing animation */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.wrapper .static-txt {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.dynamic-txts li {
+  list-style: none;
+  color: #ff004f;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 14s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -180px;
+  }
+}
+
+.wrapper .dynamic-txts {
+  margin-left: 15px;
+  line-height: 45px;
+  height: 50px;
+  overflow: hidden;
+}
+.dynamic-txts li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  border-left: 2px solid #ff004f;
+  animation: typing 3.5s steps(10) infinite;
+}
+
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px)
+  }
+  100% {
+    left: 0;
+  }
+}
 
 @media only screen and (max-width: 900px){
   #container {

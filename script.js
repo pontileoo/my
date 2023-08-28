@@ -6,6 +6,7 @@ const sr = ScrollReveal ({
 });
 
 sr.reveal('.container, ul, a',{delay:50, origin:'top'})
+sr.reveal('.static-txt',{delay:50, origin:'top'})
 sr.reveal('.bottom',{delay:50, origin:'bottom'})
 sr.reveal('.instagram-icon',{delay:150, origin:'left'})
 sr.reveal('.twitter-icon',{delay:350, origin:'left'})
