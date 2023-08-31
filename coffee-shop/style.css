@@ -83,6 +83,17 @@ header {
   animation: animate 5s linear infinite;
   border-radius: 20px;
 }
+
+body::-webkit-scrollbar {
+  width: .5rem;
+}
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+}
+
 @keyframes animate {
   0% {
     transform: translate(-14px, 0);
