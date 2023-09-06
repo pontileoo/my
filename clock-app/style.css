@@ -115,8 +115,8 @@
     flex-direction: column;
   }
   .container {
-    width: 200px;
-    height: 550px;
+    width: 180px;
+    height: 430px;
   }
   #colon-1 {
     display: none;
